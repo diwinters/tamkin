@@ -3,7 +3,7 @@
 	"mailpoet_api_key": "your_mailpoet_api_key",
 	"mailpoet_list_id": "3",
 	"subcription_widget": {
-		"enable": true,
+		"enable": false,
 		"title": "Stay up to date",
 		"description": "Get notified when I publish something new, and unsubscribe at any time.",
 		"placeholder": "Enter your email address",
@@ -11,7 +11,7 @@
 		"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
 	},
 	"newsletter_section": {
-		"enable": true,
+		"enable": false,
 		"title": "Join our newsletter 🎉",
 		"description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
 		"right_image": "/images/SVG-subcribe2.png",
@@ -19,10 +19,10 @@
 	},
 	"top_banner": {
 		"enable": true,
-		"description": "-50% Intro price for the next 72 hours only!.",
+		"description": "لإختيار النشاط التجاري",
 		"end_link": {
-			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
-			"text": "Buy now  →",
+			"url": "https://tamkin-dakhla.com/start",
+			"text": "إضغط هنا",
 			"new_tab": true
 		}
 	},
@@ -51,27 +51,9 @@
 	"site_socials": [
 		{
 			"name": "facebook",
-			"url": "https://www.facebook.com/yourfacebookpage",
+			"url": "https://www.facebook.com/regiondakhla.ma",
 			"icon": "/images/socials/facebook.svg",
-			"description": "Follow us on Facebook"
-		},
-		{
-			"name": "twitter",
-			"url": "https://twitter.com/yourtwitterpage",
-			"icon": "/images/socials/x-twitter.svg",
-			"description": "Follow us on Twitter"
-		},
-		{
-			"name": "github",
-			"url": "https://www.github.com/yourmediumpage",
-			"icon": "/images/socials/github.svg",
-			"description": "Follow us on Github"
-		},
-		{
-			"name": "tiktok",
-			"url": "https://www.tiktok.com/yourtiktokpage",
-			"icon": "/images/socials/tiktok.svg",
-			"description": "Follow us on Tiktok"
+			"description": "تابعنا على الفيسبوك"
 		}
 	],
 	"site_header": {
@@ -82,7 +64,7 @@
 		}
 	},
 	"site_footer": {
-		"all_rights_reserved_text": "© 2024 BooliiTheme Company, Inc. All rights reserved."
+		"all_rights_reserved_text": "© 2025 جهة الداخلة وادي الذهب"
 	},
 	"single_page": {
 		"show_view_cout": true,
@@ -91,72 +73,72 @@
 	"search_page": {
 		"recommended_searches": {
 			"enable": true,
-			"title": "Recommended searches",
+			"title": "الأكثر بحثا",
 			"items": [
 				{
-					"title": "Programming",
-					"url": "/search/posts/programming"
+					"title": "الصناعة التقليدية",
+					"url": "/search/posts/الصناعة%20التقليدية/"
 				},
 				{
-					"title": "Design",
-					"url": "/search/posts/design"
+					"title": "بيع الملاحف",
+					"url": "/search/posts/ملاحف"
 				},
 				{
-					"title": "Technology",
-					"url": "/search/posts/technology"
+					"title": "صالون تجميل",
+					"url": "/search/posts/صالون"
 				}
 			]
 		},
 		"show_top_categories": true,
-		"show_newsletter_section": true
+		"show_newsletter_section": false
 	},
 	"archive_page": {
-		"show_newsletter_section": true,
+		"show_newsletter_section": false,
 		"show_top_categories": true
 	},
 	"author_page": {
-		"show_newsletter_section": true,
+		"show_newsletter_section": false,
 		"show_top_categories": true
 	},
 	"post_card": {
-		"show_view_cout": false,
+		"show_view_cout": true,
 		"show_comment_count": true
 	},
 	"submissions-settings": {
 		"enable": true,
-		"max_categories_allowed": 3,
+		"max_categories_allowed": 1,
 		"max_tags_allowed": 5,
 		"allow_upload_media": true,
 		"allow_upload_media_max_size_mb": 5,
 		"post_options": [
 			{
 				"name": "Schedule_Publication",
-				"label": "Schedule Publication",
+				"label": "نشر في وقت لاحق",
 				"enable": true
 			},
 			{
 				"name": "Post_Format",
-				"label": "Post Format",
+				"label": "نوع المنشور",
 				"enable": true,
 				"options": [
 					{
-						"name": "standard",
-						"enable": true,
+						"name": "عادي",
+						"enable": false,
 						"label": "Standard"
 					},
 					{
-						"name": "gallery",
+						"name": "مجموعة صور",
 						"enable": true,
 						"label": "Gallery"
 					},
 					{
-						"name": "video",
+						"name": "فيديو",
 						"enable": true,
 						"label": "Video"
 					},
 					{
 						"name": "audio",
-						"enable": true,
+						"enable": false,
 						"label": "Audio"
 					}
 				]
