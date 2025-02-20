@@ -4,18 +4,18 @@
 	"mailpoet_list_id": "3",
 	"subcription_widget": {
 		"enable": false,
-		"title": "Stay up to date",
-		"description": "Get notified when I publish something new, and unsubscribe at any time.",
-		"placeholder": "Enter your email address",
-		"success_message": "Thank you for subscribing. You're in!",
-		"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+		"title": "ابق على اطلاع",
+		"description": "كن أول من يعرف عندما أنشر شيئًا جديدًا، ويمكنك إلغاء الاشتراك في أي وقت.",
+		"placeholder": "أدخل عنوان بريدك الإلكتروني",
+		"success_message": "شكرًا للاشتراك. أنت الآن معنا!",
+		"error_message": "حدث خطأ ما. يرجى المحاولة مرة أخرى. إذا استمر المشكلة، يمكنك الاتصال بي."
 	},
 	"newsletter_section": {
 		"enable": false,
-		"title": "Join our newsletter 🎉",
-		"description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
+		"title": "انضم إلى نشرتنا الإخبارية 🎉",
+		"description": "اقرأ وشارك وجهات نظر جديدة حول أي موضوع تقريبًا. الجميع مرحب بهم.",
 		"right_image": "/images/SVG-subcribe2.png",
-		"features_list": ["Create a free account.", "Write your stories."]
+		"features_list": ["أنشئ حسابًا مجانيًا.", "اكتب قصصك."]
 	},
 	"top_banner": {
 		"enable": true,
@@ -28,21 +28,21 @@
 	},
 	"top_category_section": {
 		"enable": true,
-		"title": "Discover top 10 categories",
-		"sub_title": "Let's explore the most popular categories"
+		"title": "اكتشف أفضل 10 فئات",
+		"sub_title": "لنستعرض أكثر الفئات شعبية"
 	},
 	"site_info": {
-		"site_title": "Ncmaz Nextjs Blog",
-		"site_description": "Ncmaz Nextjs Blog headless WordPress",
-		"site_keywords": "Ncmaz Nextjs Blog",
+		"site_title": "مدونة Ncmaz Nextjs",
+		"site_description": "مدونة Ncmaz Nextjs بنظام WordPress بدون رأس",
+		"site_keywords": "مدونة Ncmaz Nextjs",
 		"site_author": "ChisNghiax",
-		"site_email": "Your Email",
-		"site_phone": "Your Phone",
-		"site_address": "Your Address",
-		"site_city": "Your City",
-		"site_state": "Your State",
-		"site_zip": "Your Zip",
-		"site_country": "Your Country",
+		"site_email": "بريدك الإلكتروني",
+		"site_phone": "هاتفك",
+		"site_address": "عنوانك",
+		"site_city": "مدينتك",
+		"site_state": "ولايتك",
+		"site_zip": "الرمز البريدي",
+		"site_country": "دولتك",
 		"site_url": "https://www.yoursite.com",
 		"site_logo": "/logo.png",
 		"site_logo_light": "/logo-light.png",
@@ -73,7 +73,7 @@
 	"search_page": {
 		"recommended_searches": {
 			"enable": true,
-			"title": "الأكثر بحثا",
+			"title": "الأكثر بحثًا",
 			"items": [
 				{
 					"title": "الصناعة التقليدية",
@@ -123,7 +123,7 @@
 				"options": [
 					{
 						"name": "عادي",
-						"enable": false,
+						"enable": true,
 						"label": "Standard"
 					},
 					{
@@ -145,118 +145,138 @@
 			},
 			{
 				"name": "Allow_Comments",
-				"label": "Allow Comments",
+				"label": "السماح بالتعليقات",
 				"enable": true
 			},
 			{
 				"name": "Post_Style",
-				"label": "Post Style",
+				"label": "أسلوب المنشور",
 				"enable": true
 			},
 			{
 				"name": "Show_Right_Sidebar",
-				"label": "Show Right Sidebar",
+				"label": "إظهار الشريط الجانبي الأيمن",
 				"enable": true
 			}
 		]
 	},
 	"resetPassword_page": {
-		"title": "Lost your password?",
-		"sub_title": "Enter your email below to reset your password.",
+		"title": "نسيت كلمة المرور؟",
+		"sub_title": "أدخل بريدك الإلكتروني لإعادة تعيين كلمة المرور.",
 		"blockquote": {
-			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+			"text": "لقد ساعدني هذا القالب في توفير العديد من ساعات العمل وساهم في تقديم تصاميم رائعة للعملاء بسرعة أكبر من أي وقت مضى.",
 			"author": "Chis agency"
 		}
 	},
 	"signUp_page": {
-		"title": "Create an account",
-		"sub_title": "Enter your email below to create your account.",
+		"title": "أنشئ حسابًا",
+		"sub_title": "أدخل بريدك الإلكتروني لإنشاء حسابك.",
 		"blockquote": {
-			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+			"text": "لقد ساعدني هذا القالب في توفير العديد من ساعات العمل وساهم في تقديم تصاميم رائعة للعملاء بسرعة أكبر من أي وقت مضى.",
 			"author": "Chis agency"
 		}
 	},
 	"signIn_page": {
-		"title": "Sign in to your account",
-		"sub_title": "Enter your email below to sign in to your account.",
+		"title": "تسجيل الدخول إلى حسابك",
+		"sub_title": "أدخل بريدك الإلكتروني لتسجيل الدخول إلى حسابك.",
 		"blockquote": {
-			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+			"text": "لقد ساعدني هذا القالب في توفير العديد من ساعات العمل وساهم في تقديم تصاميم رائعة للعملاء بسرعة أكبر من أي وقت مضى.",
 			"author": "Chis agency"
 		},
 		"lost_password": {
 			"is_use_lostpassword_default_of_wp": false,
-			"message": "Lost password not implemented yet! Please contact admmin for support.",
+			"message": "إعادة تعيين كلمة المرور غير مفعل بعد! يرجى الاتصال بالإدارة للدعم.",
 			"url_lostpassword_default_of_wp": "https://yourwebsite.com/wp-login.php?action=lostpassword"
 		}
 	},
 	"mobile_nav_sidebar": {
-		"description": "Discover the most outstanding articles on all topics of life. Write your stories and share them with the community. "
+		"description": "اكتشف أفضل المقالات حول جميع مواضيع الحياة. اكتب قصصك وشاركها مع المجتمع."
 	},
 	"help_page": {
 		"uri": "/helps",
-		"title": "Helps",
-		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+		"title": "المساعدة",
+		"sub_title": "اقرأ وشارك وجهات نظر جديدة حول أي موضوع تقريبًا. الجميع مرحب بهم."
 	},
 	"contact_page": {
 		"enable": true,
-		"title": "Get in touch",
-		"sub_title": "We’d love to hear from you. Fill out the form below to get in touch with us.",
+		"title": "تواصل معنا",
+		"sub_title": "نود أن نسمع منك. املأ النموذج أدناه للتواصل معنا.",
 		"form": {
-			"success_message": "🎉 Thank you for your message. We will get back to you soon.",
-			"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+			"success_message": "🎉 شكرًا لرسالتك. سوف نعود إليك قريبًا.",
+			"error_message": "حدث خطأ ما. يرجى المحاولة مرة أخرى. إذا استمر المشكلة، يمكنك الاتصال بي."
 		},
 		"my_contact_info": [
 			{
 				"name": "address",
-				"title": "🚀 ADDRESS",
-				"desc": "123 Main Street, New York, NY 10001"
+				"title": "🚀 العنوان",
+				"desc": "123 الشارع الرئيسي، نيويورك، NY 10001"
 			},
 			{
 				"name": "email",
-				"title": "💌 EMAIL",
+				"title": "💌 البريد الإلكتروني",
 				"desc": "example@example.com"
 			},
 			{
 				"name": "phone",
-				"title": "☎️ PHONE",
+				"title": "☎️ الهاتف",
 				"desc": "+88 123 456 789"
 			},
 			{
 				"name": "working_hours",
-				"title": "🕒 WORKING HOURS",
-				"desc": "Mon - Fri: 9:00 - 19:00"
+				"title": "🕒 ساعات العمل",
+				"desc": "الإثنين - الجمعة: 9:00 - 19:00"
 			},
 			{
 				"name": "socials",
-				"title": "👋 SOCIALS"
+				"title": "👋 الشبكات الاجتماعية"
 			}
 		]
 	},
 	"document_page": {
 		"enable": true,
 		"uri": "/documents",
-		"title": "Documents",
-		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+		"title": "المستندات",
+		"sub_title": "اقرأ وشارك وجهات نظر جديدة حول أي موضوع تقريبًا. الجميع مرحب بهم."
 	},
 	"cookies_policy_page": {
 		"uri": "#"
 	},
 	"privacy_policy_page": {
 		"uri": "/privacy-policy",
-		"title": "Privacy Policy"
+		"title": "سياسة الخصوصية"
 	},
 	"empty_state": {
-		"title": "No results found.",
-		"description": "We couldn’t find any results. Try for something else."
+		"title": "لم يتم العثور على أي منشورات!",
+		"sub_title": "يبدو أنه لا يوجد شيء هنا، يمكنك العودة لاحقًا أو تصفح منشوراتنا الأخرى."
 	},
-	"discussion_settings": {
-		"enable": true,
-		"must_logged_in_to_comment": true
+	"translations": {
+		"confirm": "موافق",
+		"cancel": "إلغاء"
 	},
-	"general_settings": {
-		"timeFormat": "h:mm a",
-		"language": "en",
-		"timezone": "auto",
-		"dateFormat": "M j, Y"
+	"admin_settings": {
+		"general_settings": {
+			"site_logo": "/logo.png",
+			"site_favicon": "/favicon.ico",
+			"site_title": "مدونة Ncmaz Nextjs",
+			"site_description": "مدونة Ncmaz Nextjs بنظام WordPress بدون رأس",
+			"site_keywords": "مدونة Ncmaz Nextjs",
+			"site_author": "ChisNghiax",
+			"site_email": "بريدك الإلكتروني",
+			"site_phone": "هاتفك",
+			"site_address": "عنوانك",
+			"site_city": "مدينتك",
+			"site_state": "ولايتك",
+			"site_zip": "الرمز البريدي",
+			"site_country": "دولتك",
+			"site_url": "https://www.yoursite.com",
+			"home_page": {
+				"welcome_message": "مرحبًا بك في مدونتي الخاصة! ابحث في المقالات حول الأعمال والابتكار."
+			}
+		},
+		"social_media": {
+			"facebook": {
+				"url": "https://www.facebook.com/regiondakhla.ma"
+			}
+		}
 	}
 }
