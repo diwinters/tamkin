@@ -25,6 +25,9 @@ import { NC_SITE_SETTINGS } from '@/contains/site-settings'
 type GalleryImages = Record<string, ImageState>
 
 const postFormats: PostFormatNameType[] = [
+	'standard',
+	'video',
+	'audio',
 	'gallery',
 ]
 
@@ -519,7 +522,13 @@ const PostOptionsBtn: FC<PostOptionsBtnProps> = ({ onSubmit, defaultData }) => {
 
 					{checkOptionEnabel('Allow_Comments') && renderAllowCommentSwitch()}
 
-					{postFormatsSelected === 'gallery' &&
+					{postFormatsSelected === 'gallery' && renderUploadGallery()}
+
+					{postFormatsSelected === 'video' && renderInputVideoUrl()}
+
+					{postFormatsSelected === 'audio' && renderInputAudio()}
+
+					{postFormatsSelected === 'standard' &&
 						checkOptionEnabel('Post_Style') &&
 						renderSelectPostStyle()}
 					{checkOptionEnabel('Show_Right_Sidebar') && renderShowSidebarSwitch()}
