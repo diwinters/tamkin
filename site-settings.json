@@ -156,7 +156,7 @@
 			{
 				"name": "Show_Right_Sidebar",
 				"label": "إظهار الشريط الجانبي الأيمن",
-				"enable": true
+				"enable": false
 			}
 		]
 	},
