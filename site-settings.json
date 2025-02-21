@@ -119,7 +119,7 @@
 			{
 				"name": "Post_Format",
 				"label": "نوع المنشور",
-				"enable": true,
+				"enable": false,
 				"options": [
 					{
 						"name": "standard",
