@@ -127,14 +127,14 @@
 						"label": "مجموعة صور"
 					},
 					{
+						"name": "video",
+						"enable": true,
+						"label": "فيديو"
+					},
+					{
 						"name": "standard",
 						"enable": false,
 						"label": "عادي"
-					},
-					{
-						"name": "video",
-						"enable": false,
-						"label": "فيديو"
 					},
 					{
 						"name": "audio",
