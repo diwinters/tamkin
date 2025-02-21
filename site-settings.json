@@ -114,7 +114,7 @@
 			{
 				"name": "Schedule_Publication",
 				"label": "نشر في وقت لاحق",
-				"enable": true
+				"enable": false
 			},
 			{
 				"name": "Post_Format",
