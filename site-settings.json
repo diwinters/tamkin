@@ -122,14 +122,14 @@
 				"enable": true,
 				"options": [
 					{
-						"name": "standard",
-						"enable": false,
-						"label": "عادي"
-					},
-					{
 						"name": "gallery",
 						"enable": true,
 						"label": "مجموعة صور"
+					},
+					{
+						"name": "standard",
+						"enable": false,
+						"label": "عادي"
 					},
 					{
 						"name": "video",
