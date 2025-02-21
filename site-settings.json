@@ -146,12 +146,12 @@
 			{
 				"name": "Allow_Comments",
 				"label": "السماح بالتعليقات",
-				"enable": true
+				"enable": false
 			},
 			{
 				"name": "Post_Style",
 				"label": "أسلوب المنشور",
-				"enable": true
+				"enable": false
 			},
 			{
 				"name": "Show_Right_Sidebar",
