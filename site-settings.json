@@ -132,7 +132,7 @@
 						"label": "Gallery"
 					},
 					{
-						"name": "فيديو",
+						"name": "video",
 						"enable": true,
 						"label": "Video"
 					},
