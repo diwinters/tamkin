@@ -114,7 +114,7 @@
 			{
 				"name": "Schedule_Publication",
 				"label": "نشر في وقت لاحق",
-				"enable": false
+				"enable": true
 			},
 			{
 				"name": "Post_Format",
@@ -146,17 +146,17 @@
 			{
 				"name": "Allow_Comments",
 				"label": "السماح بالتعليقات",
-				"enable": false
+				"enable": true
 			},
 			{
 				"name": "Post_Style",
 				"label": "أسلوب المنشور",
-				"enable": false
+				"enable": true
 			},
 			{
 				"name": "Show_Right_Sidebar",
 				"label": "إظهار الشريط الجانبي الأيمن",
-				"enable": false
+				"enable": true
 			}
 		]
 	},
