@@ -122,24 +122,24 @@
 				"enable": true,
 				"options": [
 					{
-						"name": "عادي",
-						"enable": true,
-						"label": "Standard"
+						"name": "standard",
+						"enable": false,
+						"label": "عادي"
 					},
 					{
-						"name": "مجموعة صور",
+						"name": "gallery",
 						"enable": true,
-						"label": "Gallery"
+						"label": "مجموعة صور"
 					},
 					{
 						"name": "video",
-						"enable": true,
-						"label": "Video"
+						"enable": false,
+						"label": "فيديو"
 					},
 					{
 						"name": "audio",
-						"enable": true,
-						"label": "Audio"
+						"enable": false,
+						"label": "تسجيل صوتي"
 					}
 				]
 			},
