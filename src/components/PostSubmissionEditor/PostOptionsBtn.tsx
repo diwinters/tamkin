@@ -64,7 +64,7 @@ const PostOptionsBtn: FC<PostOptionsBtnProps> = ({ onSubmit, defaultData }) => {
 	const T = getTrans()
 
 	const [postFormatsSelected, setPostFormatsSelected] = useState(
-		defaultData.postFormatsSelected || 'standard',
+		defaultData.postFormatsSelected || 'gallery',
 	)
 	const [timeSchedulePublication, settimeSchedulePublication] = useState(
 		defaultData.timeSchedulePublication,
