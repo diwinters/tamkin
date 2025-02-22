@@ -13,7 +13,7 @@ import PrevBtn from '@/components/NextPrev/PrevBtn'
 import SocialsShareDropdown from '@/components/SocialsShareDropdown/SocialsShareDropdown'
 import MyImage from '@/components/MyImage'
 import { useWindowSize } from '@/hooks/useWindowSize'
-import { ArrowLeftIcon } from '@heroicons/react/24/solid'
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 interface Props {
 	images?: NcmazFcImageHasDetailFieldsFragment[]
@@ -79,7 +79,7 @@ const ListingImageGallery: FC<Props> = ({
 										className="flex h-10 w-10 items-center justify-center rounded-full hover:bg-neutral-800 focus:outline-none focus:ring-0"
 										onClick={handleClose}
 									>
-										<ArrowLeftIcon className="h-6 w-6" />
+										<ArrowRightIcon className="h-6 w-6" />
 									</button>
 
 									{!isMobile && (

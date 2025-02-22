@@ -191,7 +191,7 @@ const ModalUploadImage: FC<MenuItemImageProps> = ({
 							: 'Error in Uploading File!',
 					)
 				} else {
-					toast.success('File Uploaded')
+					toast.success('تم رفع الصورة بنجاح')
 					setUrlState(sourceUrl)
 				}
 			} catch (err) {

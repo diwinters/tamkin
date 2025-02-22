@@ -181,7 +181,7 @@ export default {
     "Updating post...": "جارٍ تحديث المنشور ...",
     "Updating post, please wait!": "جارٍ تحديث المنشور، يرجى الانتظار!",
 	pageSingle: {
-		'WRITTEN BY': 'كتب بواسطة',
+		'WRITTEN BY': 'بواسطة',
 		'Show more comments': 'عرض المزيد من التعليقات',
 		'Responses': 'الردود',
 		'You must login to comment': 'يجب عليك تسجيل الدخول للتعليق',
