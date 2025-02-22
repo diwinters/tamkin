@@ -5,47 +5,35 @@ type DateFormatter = (d: Date) => string | number
 interface DateFormatters {
 	[key: string]: DateFormatter
 }
+
 export default function ncFormatDate(date_string: string): string {
 	if (!date_string || typeof date_string !== 'string') return ''
 	const date = new Date(date_string)
-	let dateFormat = NC_SITE_SETTINGS?.general_settings?.dateFormat || 'F j, Y'
+	let dateFormat = NC_SITE_SETTINGS?.general_settings?.dateFormat || 'j F Y' // Default format for Arabic/Morocco
 	if (typeof dateFormat !== 'string') {
-		dateFormat = 'F j, Y'
+		dateFormat = 'j F Y'
 	}
 
-	// check date invalid
+	// Check if date is invalid
 	if (isNaN(date.getTime())) return ''
 
 	const formatters: DateFormatters = {
 		d: (d: Date) => d.getDate().toString().padStart(2, '0'),
 		D: (d: Date) =>
-			['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getDay()],
+			['أحد', 'إثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة', 'سبت'][d.getDay()], // Arabic short day names
 		j: (d: Date) => d.getDate(),
 		l: (d: Date) =>
 			[
-				'Sunday',
-				'Monday',
-				'Tuesday',
-				'Wednesday',
-				'Thursday',
-				'Friday',
-				'Saturday',
-			][d.getDay()],
+				'الأحد',
+				'الإثنين',
+				'الثلاثاء',
+				'الأربعاء',
+				'الخميس',
+				'الجمعة',
+				'السبت',
+			][d.getDay()], // Arabic full day names
 		N: (d: Date) => (d.getDay() === 0 ? 7 : d.getDay()),
-		S: (d: Date) => {
-			const day = d.getDate()
-			if (day >= 11 && day <= 13) return 'th'
-			switch (day % 10) {
-				case 1:
-					return 'st'
-				case 2:
-					return 'nd'
-				case 3:
-					return 'rd'
-				default:
-					return 'th'
-			}
-		},
+		S: (d: Date) => '', // Remove ordinal suffixes (not used in Arabic)
 		w: (d: Date) => d.getDay(),
 		z: (d: Date) =>
 			Math.floor(
@@ -64,35 +52,35 @@ export default function ncFormatDate(date_string: string): string {
 		},
 		F: (d: Date) =>
 			[
-				'January',
-				'February',
-				'March',
-				'April',
-				'May',
-				'June',
-				'July',
-				'August',
-				'September',
-				'October',
-				'November',
-				'December',
-			][d.getMonth()],
+				'يناير',
+				'فبراير',
+				'مارس',
+				'أبريل',
+				'ماي',
+				'يونيو',
+				'يوليوز',
+				'غشت',
+				'شتنبر',
+				'أكتوبر',
+				'نونبر',
+				'دجنبر',
+			][d.getMonth()], // Arabic month names
 		m: (d: Date) => (d.getMonth() + 1).toString().padStart(2, '0'),
 		M: (d: Date) =>
 			[
-				'Jan',
-				'Feb',
-				'Mar',
-				'Apr',
-				'May',
-				'Jun',
-				'Jul',
-				'Aug',
-				'Sep',
-				'Oct',
-				'Nov',
-				'Dec',
-			][d.getMonth()],
+				'يناير',
+				'فبراير',
+				'مارس',
+				'أبريل',
+				'ماي',
+				'يونيو',
+				'يوليوز',
+				'غشت',
+				'شتنبر',
+				'أكتوبر',
+				'نونبر',
+				'دجنبر',
+			][d.getMonth()], // Arabic short month names
 		n: (d: Date) => d.getMonth() + 1,
 		t: (d: Date) => new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate(),
 		L: (d: Date) => (new Date(d.getFullYear(), 1, 29).getMonth() === 1 ? 1 : 0),
@@ -103,8 +91,8 @@ export default function ncFormatDate(date_string: string): string {
 		},
 		Y: (d: Date) => d.getFullYear(),
 		y: (d: Date) => d.getFullYear().toString().slice(-2),
-		a: (d: Date) => (d.getHours() < 12 ? 'am' : 'pm'),
-		A: (d: Date) => (d.getHours() < 12 ? 'AM' : 'PM'),
+		a: (d: Date) => '', // Remove AM/PM (not used in Arabic)
+		A: (d: Date) => '', // Remove AM/PM (not used in Arabic)
 		g: (d: Date) => d.getHours() % 12 || 12,
 		G: (d: Date) => d.getHours(),
 		h: (d: Date) => (d.getHours() % 12 || 12).toString().padStart(2, '0'),
@@ -151,8 +139,8 @@ export default function ncFormatDate(date_string: string): string {
 					timeZoneName: 'short',
 					timeZone:
 						january.getTimezoneOffset() < july.getTimezoneOffset()
-							? 'America/New_York'
-							: 'America/Denver',
+							? 'Africa/Casablanca' // Morocco's timezone
+							: 'Africa/Casablanca',
 				})
 				.split(' ')[2]
 		},
