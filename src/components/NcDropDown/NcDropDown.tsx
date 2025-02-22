@@ -32,7 +32,7 @@ export interface NcDropDownProps<T> {
 }
 
 function NcDropDown<T>({
-	className = `h-8 w-8 bg-neutral-100 dark:bg-neutral-800 rounded-full flex items-center justify-center`,
+	className = `h-8 w-8 bg-neutral-100 dark:bg-neutral-700 rounded-full flex items-center justify-center`,
 	triggerIconClass = 'h-6 w-6',
 	panelMenusClass = 'origin-top-right -top-1',
 	dropdownItemsClass = 'cursor-pointer flex items-center rounded-xl w-full px-3 py-2.5 hover:bg-neutral-100 dark:hover:bg-neutral-800 hover:text-neutral-900 dark:hover:text-neutral-100 truncate ',
