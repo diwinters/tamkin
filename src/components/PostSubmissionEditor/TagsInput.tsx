@@ -93,7 +93,7 @@ const TagsInput: FC<TagsInputProps> = ({ onChange, defaultValue }) => {
 			<ul className="flex flex-wrap gap-1.5">
 				{tags.map((tag) => (
 					<li key={tag.databaseId} className="flex items-center rounded-lg bg-neutral-100 px-3 py-2 dark:bg-neutral-800">
-						# {tag.name}
+						 {tag.name}
 						<button
 							className="ms-1 flex items-center justify-center px-1 text-base hover:text-neutral-900 dark:hover:text-neutral-50"
 							onClick={() => handleRemoveTag(tag)}
