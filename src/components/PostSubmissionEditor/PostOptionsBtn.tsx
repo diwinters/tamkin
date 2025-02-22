@@ -112,7 +112,7 @@ const PostOptionsBtn: FC<PostOptionsBtnProps> = ({ onSubmit, defaultData }) => {
 			showRightSidebar: isShowSidebar,
 			postStyleSelected: postStyleSelected?.name || 'style1',
 		})
-		toast.success('Post options applied!')
+		toast.success('تم التحديث بنجاح')
 	}
 
 	const handleClickCancel = () => {}
@@ -282,16 +282,7 @@ const PostOptionsBtn: FC<PostOptionsBtnProps> = ({ onSubmit, defaultData }) => {
 				<Label htmlFor="excerpt" className="block capitalize">
 					{T.pageSubmission['Write an excerpt (optional)']}
 				</Label>
-				<Textarea
-					onChange={(event) => {
-						debounceGetExcerpt(event.currentTarget.value)
-					}}
-					defaultValue={strippedExcerpt}
-					className="mt-1"
-					placeholder="..."
-					name="excerpt"
-					id="excerpt"
-				/>
+				
 			</div>
 		)
 	}
@@ -545,7 +536,7 @@ const PostOptionsBtn: FC<PostOptionsBtnProps> = ({ onSubmit, defaultData }) => {
 				contentExtraClass="max-w-screen-md"
 				renderContent={renderContent}
 				renderTrigger={renderBtnOpenPopover}
-				modalTitle="Post options"
+				modalTitle="إضافة صور أو فيديو"
 				renderFooter={(closeModal) => {
 					return (
 						<div className="flex items-center justify-between">

@@ -37,7 +37,7 @@ const ModalUploadImage: FC<MenuItemImageProps> = ({
 }) => {
 	const T = getTrans()
 
-	let [catImages] = useState(['Upload', 'Insert from URL'])
+	let [catImages] = useState(['رفع', 'رفع عن طريق رابط'])
 
 	const [urlState, setUrlState] = useState(defaultImage?.url || '')
 	const [altState, setAltState] = useState(defaultImage?.alt || '')
@@ -264,7 +264,7 @@ const ModalUploadImage: FC<MenuItemImageProps> = ({
 
 				{urlState && (
 					<div className="mt-6">
-						<Label>Alt text (alternative text)</Label>
+						<Label>عنوان للصورة</Label>
 						<Input
 							className="mt-1"
 							rounded="rounded-xl"
@@ -325,7 +325,7 @@ const ModalUploadImage: FC<MenuItemImageProps> = ({
 				contentExtraClass="max-w-screen-md"
 				renderContent={renderContent}
 				renderTrigger={() => null}
-				modalTitle="Add Image"
+				modalTitle="أضف صورة"
 				renderFooter={(closeModal) => {
 					return (
 						<div className="flex items-center justify-between">
