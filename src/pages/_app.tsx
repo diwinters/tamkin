@@ -42,7 +42,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 font-family: ${notoKufiArabic.style.fontFamily};
               }
             `}</style>
-            <NextNProgress color="#818cf8" />
+            <NextNProgress color="#000" />
             <Component {...pageProps} key={router.asPath} />
             <Toaster
               position="bottom-left"
