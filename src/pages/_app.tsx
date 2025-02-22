@@ -14,7 +14,7 @@ import NextNProgress from 'nextjs-progressbar'
 import themeJson from '@/../theme.json'
 import { GoogleAnalytics } from 'nextjs-google-analytics'
 
-const Lateef = Lateef({
+const lateefFont = Lateef({  // Renamed to avoid conflict
 	subsets: ['latin'],
 	display: 'swap',
 	weight: ['300', '400', '500', '600', '700'],
@@ -37,7 +37,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 					<SiteWrapperProvider {...pageProps}>
 						<style jsx global>{`
 							html {
-								font-family: ${Lateef.style.fontFamily};
+								font-family: ${lateefFont.style.fontFamily};
 							}
 						`}</style>
 						<NextNProgress color="#818cf8" />
