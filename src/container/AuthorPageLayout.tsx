@@ -223,7 +223,7 @@ const AuthorLayout: FC<Props> = ({ className = '', children, user }) => {
 	return (
 		<div className="">
 			{/* HEADER */}
-			<div className="w-full">
+			<div className="w-full bg-white dark:bg-neutral-800">
 				<div className="relative h-40 w-full md:h-60 2xl:h-72">
 					{ncUserMeta?.backgroundImage?.node ? (
 						<NcImage
