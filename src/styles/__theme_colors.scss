@@ -1,27 +1,27 @@
 :root {
   // PRIMARY COLOR
-  --c-primary-50: 35, 35, 35;      // Dark grey
-  --c-primary-100: 45, 45, 45;     // Slightly lighter grey
-  --c-primary-200: 55, 55, 55;     // Lighter grey
-  --c-primary-300: 75, 75, 75;     // Medium dark grey
-  --c-primary-400: 100, 100, 100;  // Mid-tone grey
-  --c-primary-500: 125, 125, 125;  // Light grey
-  --c-primary-600: 150, 150, 150;  // Very light grey
-  --c-primary-700: 175, 175, 175;  // Almost white
-  --c-primary-800: 200, 200, 200;  // Lightest grey
-  --c-primary-900: 225, 225, 225;  // Near white
+  --c-primary-50: 238, 242, 255;   /* Lightest Blue */
+  --c-primary-100: 224, 231, 255;  /* Light Blue */
+  --c-primary-200: 199, 210, 254;  /* Pale Blue */
+  --c-primary-300: 165, 180, 252;  /* Soft Blue */
+  --c-primary-400: 129, 140, 248;  /* Light Indigo */
+  --c-primary-500: 99, 102, 241;   /* Indigo */
+  --c-primary-600: 79, 70, 229;    /* Royal Blue */
+  --c-primary-700: 67, 56, 202;    /* Deep Blue */
+  --c-primary-800: 55, 48, 163;    /* Dark Indigo */
+  --c-primary-900: 49, 46, 129;    /* Darkest Blue */
 
-  // SECONDARY COLOR (Green/Blue accent for contrast)
-  --c-secondary-50: 34, 39, 46;    // Very dark blue-grey
-  --c-secondary-100: 44, 50, 61;   // Dark blue-grey
-  --c-secondary-200: 54, 61, 76;   // Blue-green
-  --c-secondary-300: 64, 72, 91;   // Medium blue-grey
-  --c-secondary-400: 74, 83, 106;  // Light blue-grey
-  --c-secondary-500: 84, 94, 121;  // Slate blue
-  --c-secondary-600: 94, 106, 137; // Stronger blue-grey
-  --c-secondary-700: 104, 118, 153; // Accent blue-grey
-  --c-secondary-800: 114, 130, 169; // More saturated blue
-  --c-secondary-900: 124, 142, 185; // Light blue
+  // SECONDARY COLOR
+  --c-secondary-50: 240, 253, 250;  /* Very Light Teal */
+  --c-secondary-100: 204, 251, 241; /* Light Teal */
+  --c-secondary-200: 153, 246, 228; /* Aqua */
+  --c-secondary-300: 153, 246, 228; /* Aqua */
+  --c-secondary-400: 45, 212, 191;  /* Bright Teal */
+  --c-secondary-500: 20, 184, 166;  /* Medium Teal */
+  --c-secondary-600: 13, 148, 136;  /* Deep Teal */
+  --c-secondary-700: 15, 118, 110;  /* Teal Blue */
+  --c-secondary-800: 17, 94, 89;    /* Dark Teal */
+  --c-secondary-900: 19, 78, 74;    /* Very Dark Teal */
 
   // NEUTRAL COLOR
   --c-neutral-50: 249, 250, 251;    /* Very Light Grey */
