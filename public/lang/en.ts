@@ -69,7 +69,7 @@ export default {
     'Search posts': 'البحث في المشاركات',
     'Search authors': 'البحث عن المؤلفين',
     'Search categories': 'البحث في الفئات',
-    'Recommended searches': 'البحث الموصى به',
+    'Recommended searches': 'ابحث مثلا عن',
     'Explore': 'استكشاف',
     'Go to search page': 'الذهاب إلى صفحة البحث',
     'By creating an account you agree with our': 'بإنشاء حساب، أنت توافق على',
