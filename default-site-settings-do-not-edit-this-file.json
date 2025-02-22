@@ -233,7 +233,7 @@
 	},
 	"empty_state": {
 		"title": "No results found.",
-		"description": "We couldn’t find any results. Try for something else."
+		"description": "لم نتمكن من العثور على أي نتائج"
 	},
 	"discussion_settings": {
 		"enable": true,
