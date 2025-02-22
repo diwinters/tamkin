@@ -102,7 +102,7 @@ const AuthorFavoritesChild: FaustPage<
 				}
 			>
 				<AuthorLayout user={user || {}}>
-					<div className="container space-y-16 py-16 lg:space-y-28 lg:pb-28 lg:pt-20">
+					<div className="container space-y-16 lg:space-y-28 lg:pb-28 lg:pt-20">
 						<main>
 							{/* TABS FILTER */}
 							<div className="flex flex-col border-neutral-200 sm:flex-row sm:items-center sm:justify-between sm:border-b dark:border-neutral-600">
