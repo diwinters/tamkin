@@ -37,7 +37,7 @@ export interface AccountActionDropdownProps {
 }
 
 const AccountActionDropdown: FC<AccountActionDropdownProps> = ({
-	containerClassName = 'h-8 w-8 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700',
+	containerClassName = 'h-8 w-8 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-700 dark:hover:bg-neutral-700',
 	iconClass = 'h-6 w-6',
 	dropdownPositon = 'down',
 	authorSlug = '',

@@ -32,7 +32,7 @@ const initActions: NcDropDownItem<TDropDownShareItem>[] = [
 const SocialsShareDropdown: FC<Props> = ({
 	className = ' ',
 	sizeClass = 'h-9 w-9',
-	bgClass = 'bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-700',
+	bgClass = 'bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-700 dark:hover:bg-neutral-700',
 	itemClass,
 	href = '',
 }) => {
