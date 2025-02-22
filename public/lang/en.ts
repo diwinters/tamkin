@@ -179,7 +179,7 @@ export default {
     "Move to trash": "نقل إلى المهملات",
     "Post updated": "تم تحديث المنشور",
     "Updating post...": "جارٍ تحديث المنشور ...",
-    "Updating post, please wait!": "جارٍ تحديث المنشور، يرجى الانتظار!"
+    "Updating post, please wait!": "جارٍ تحديث المنشور، يرجى الانتظار!",
 	pageSingle: {
 		'WRITTEN BY': 'كتب بواسطة',
 		'Show more comments': 'عرض المزيد من التعليقات',
