@@ -291,7 +291,7 @@ const AuthorLayout: FC<Props> = ({ className = '', children, user }) => {
 
 							<AccountActionDropdown
 								authorSlug={authorSlug}
-								containerClassName="h-10 w-10 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700"
+								containerClassName="h-10 w-10 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-700 dark:hover:bg-neutral-700"
 								userDatabaseId={databaseId}
 							/>
 						</div>
