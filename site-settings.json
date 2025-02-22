@@ -28,19 +28,19 @@
 	},
 	"top_category_section": {
 		"enable": true,
-		"title": "اكتشف أفضل 10 فئات",
-		"sub_title": "لنستعرض أكثر الفئات شعبية"
+		"title": "القطاعات الأكثر نشاطا",
+		"sub_title": "لنستعرض أكثر القطاعات شعبية"
 	},
 	"site_info": {
-		"site_title": "مدونة Ncmaz Nextjs",
-		"site_description": "مدونة Ncmaz Nextjs بنظام WordPress بدون رأس",
-		"site_keywords": "مدونة Ncmaz Nextjs",
-		"site_author": "ChisNghiax",
+		"site_title": "تمكين",
+		"site_description": "سوق نموذجي رقمي",
+		"site_keywords": "سوق نموذجي رقمي جهة الداخلة وادي الذهب",
+		"site_author": "جهة الداخلة وادي الذهب",
 		"site_email": "بريدك الإلكتروني",
 		"site_phone": "هاتفك",
 		"site_address": "عنوانك",
 		"site_city": "مدينتك",
-		"site_state": "ولايتك",
+		"site_state": "جهتك",
 		"site_zip": "الرمز البريدي",
 		"site_country": "دولتك",
 		"site_url": "https://www.yoursite.com",
