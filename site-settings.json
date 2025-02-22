@@ -44,8 +44,8 @@
 		"site_zip": "الرمز البريدي",
 		"site_country": "دولتك",
 		"site_url": "https://www.yoursite.com",
-		"site_logo": "/logo.gif",
-		"site_logo_light": "/logo-light.gif",
+		"site_logo": "/logo-dark.gif",
+		"site_logo_light": "/logo.gif",
 		"site_favicon": "/favicon.png"
 	},
 	"site_socials": [
