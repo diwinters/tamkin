@@ -1,5 +1,5 @@
 :root {
-  // PRIMARY COLOR (Black-based theme)
+  // PRIMARY COLOR
   --c-primary-50: 35, 35, 35;      // Dark grey
   --c-primary-100: 45, 45, 45;     // Slightly lighter grey
   --c-primary-200: 55, 55, 55;     // Lighter grey
@@ -23,15 +23,15 @@
   --c-secondary-800: 114, 130, 169; // More saturated blue
   --c-secondary-900: 124, 142, 185; // Light blue
 
-  // NEUTRAL COLOR (Dark shades for a modern, sleek look)
-  --c-neutral-50: 10, 10, 10;       // Very dark grey (almost black)
-  --c-neutral-100: 20, 20, 20;      // Almost black
-  --c-neutral-200: 40, 40, 40;      // Dark grey
-  --c-neutral-300: 60, 60, 60;      // Medium dark grey
-  --c-neutral-400: 80, 80, 80;      // Medium grey
-  --c-neutral-500: 100, 100, 100;   // Neutral grey
-  --c-neutral-600: 120, 120, 120;   // Light grey
-  --c-neutral-700: 140, 140, 140;   // Very light grey
-  --c-neutral-800: 160, 160, 160;   // Lightest grey
-  --c-neutral-900: 180, 180, 180;   // Almost white
+  // NEUTRAL COLOR
+  --c-neutral-50: 249, 250, 251;    /* Very Light Grey */
+  --c-neutral-100: 243, 244, 246;   /* Light Grey */
+  --c-neutral-200: 229, 231, 235;   /* Pale Grey */
+  --c-neutral-300: 209, 213, 219;   /* Medium Light Grey */
+  --c-neutral-400: 156, 163, 175;   /* Greyish Blue */
+  --c-neutral-500: 107, 114, 128;   /* Slate Grey */
+  --c-neutral-600: 75, 85, 99;      /* Dark Slate Grey */
+  --c-neutral-700: 55, 65, 81;      /* Charcoal Grey */
+  --c-neutral-800: 31, 41, 55;      /* Dark Charcoal */
+  --c-neutral-900: 17, 24, 39;      /* Very Dark Charcoal */
 }
