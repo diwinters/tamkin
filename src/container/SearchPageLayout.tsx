@@ -46,8 +46,9 @@ const SearchPageLayout: FC<Props> = ({
 		<div className="">
 			{/* HEADER */}
 			<div
-				className={`right-0 start-0 top-0 h-24 w-full bg-white 2xl:h-28 dark:bg-neutral-900`}
+				className={`right-0 start-0 top-0 h-16 w-full bg-white 2xl:h-28 dark:bg-neutral-900`}
 			/>
+			<div className="w-full">
 			<div className="container bg-white dark:bg-neutral-900">
 				<header className="mx-auto -mt-10 flex max-w-2xl flex-col lg:-mt-7">
 					<form
@@ -72,10 +73,9 @@ const SearchPageLayout: FC<Props> = ({
 								id="search-input"
 								type="search"
 								placeholder={T.pageSearch['Type and press enter']}
-								className="border-opacity-0 text-base shadow-md dark:!bg-neutral-800"
+								className="text-base dark:!bg-neutral-900 bg-body-light"
 								sizeClass="h-16 ps-14 py-4 pe-3 sm:pe-5 md:ps-16"
 								fontClass="text-base text-neutral-800 dark:text-neutral-200"
-								rounded="rounded-full"
 								defaultValue={search || ''}
 							/>
 							<span className="absolute start-5 top-1/2 -translate-y-1/2 transform text-2xl md:start-6">
@@ -113,6 +113,7 @@ const SearchPageLayout: FC<Props> = ({
 				</header>
 				<Tab search={search} currentTab={getCurrentTab()} />
 
+			</div>
 			</div>
 			{/* ====================== END HEADER ====================== */}
 
