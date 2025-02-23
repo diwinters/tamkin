@@ -75,14 +75,16 @@ const AuthorPostsChild: FaustPage<GetAuthorWithPostsQuery> = (props) => {
 								<Tab currentTab="" />
 
 								<div className="mb-4 block w-full border-b border-neutral-300 sm:hidden dark:border-neutral-500"></div>
-								<div className="flex justify-end">
+								
+							</div>
+
+							<div className="flex justify-end mt-3">
 									<ArchiveFilterListBox
 										lists={FILTERS}
 										onChange={handleChangeFilterPosts}
 									/>
 								</div>
-							</div>
-
+								
 							<GridPostsArchive
 								posts={currentPosts}
 								loading={loading}
