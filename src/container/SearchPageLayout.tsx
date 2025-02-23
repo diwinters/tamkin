@@ -46,9 +46,9 @@ const SearchPageLayout: FC<Props> = ({
 		<div className="">
 			{/* HEADER */}
 			<div
-				className={`right-0 start-0 top-0 h-24 w-full bg-primary-100/50 2xl:h-28 dark:bg-neutral-900`}
+				className={`right-0 start-0 top-0 h-24 w-full bg-white 2xl:h-28 dark:bg-neutral-900`}
 			/>
-			<div className="container">
+			<div className="container bg-white dark:bg-neutral-900">
 				<header className="mx-auto -mt-10 flex max-w-2xl flex-col lg:-mt-7">
 					<form
 						className="relative"
@@ -111,6 +111,8 @@ const SearchPageLayout: FC<Props> = ({
 						</div>
 					)}
 				</header>
+				<Tab search={search} currentTab={getCurrentTab()} />
+
 			</div>
 			{/* ====================== END HEADER ====================== */}
 
@@ -118,7 +120,6 @@ const SearchPageLayout: FC<Props> = ({
 				<main>
 					{/* TABS FILTER */}
 					<div className="flex flex-col border-neutral-200 sm:flex-row sm:items-center sm:justify-between sm:border-b dark:border-neutral-600">
-						<Tab search={search} currentTab={getCurrentTab()} />
 
 						<div className="mb-4 block w-full border-b border-neutral-300 sm:hidden dark:border-neutral-500"></div>
 						{getCurrentTab() === 'posts' ? (

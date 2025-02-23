@@ -73,7 +73,7 @@
 	"search_page": {
 		"recommended_searches": {
 			"enable": true,
-			"title": "الأكثر بحثًا",
+			"title": "إقتراحات",
 			"items": [
 				{
 					"title": "الصناعة التقليدية",
