@@ -50,7 +50,7 @@
     border-radius: 9px 9px 0 0;
 }
 .nc-Badge {
-    @apply bg-white dark:bg-neutral-900;
+    @apply bg-white dark:bg-neutral-900 text-black dark:text-white;
     color: black;
     border-radius: 6px;
     border: 1px solid #0000000d;
