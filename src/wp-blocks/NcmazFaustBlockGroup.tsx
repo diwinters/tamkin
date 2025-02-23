@@ -23,8 +23,7 @@ const NcmazFaustBlockGroup: WordPressBlock<
 
   return (
     <div
-      className={`NcmazFaustBlockGroup relative not-prose ${className || ""}`}
-      style={style}
+      className={`mb-8 NcmazFaustBlockGroup relative not-prose ${className || ""}`}
     >
       {hasBackground && (
         <BackgroundSection

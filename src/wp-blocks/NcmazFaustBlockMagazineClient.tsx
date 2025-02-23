@@ -207,7 +207,7 @@ const NcmazFaustBlockMagazineClient: WordPressBlock<
 			{/* FOR Magzine or grid */}
 			{!(blockVariation || '').startsWith('slider-') &&
 			(showLoadmoreButton || showViewAll) ? (
-				<div className="mt-12 flex items-center justify-center gap-4 sm:mt-16 2xl:mt-20">
+				<div className="mt-8 mb-12 flex items-center justify-center gap-4 sm:mt-16 2xl:mt-20">
 					{showLoadmoreButton ? (
 						<ButtonPrimary
 							loading={getPostByVariablesFromSSRResult.loading}
