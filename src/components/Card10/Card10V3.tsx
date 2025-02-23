@@ -120,7 +120,7 @@ const Card10V3: FC<Card10V3Props> = ({
 
 	return (
 		<div
-			className={`nc-Card10V3 group relative flex flex-col ${className}`}
+			className={`bg-white dark:bg-neutral-800 nc-Card10V3 group relative flex flex-col ${className}`}
 			onMouseEnter={() => setIsHover(true)}
 			onMouseLeave={() => setIsHover(false)}
 		>
