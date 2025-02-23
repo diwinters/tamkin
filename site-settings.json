@@ -208,23 +208,23 @@
 		"my_contact_info": [
 			{
 				"name": "address",
-				"title": "🚀 العنوان",
-				"desc": "123 الشارع الرئيسي، نيويورك، NY 10001"
+				"title": "العنوان",
+				"desc": "ملحقة جهة الداخلة وادي الذهب، شارع الولاء، الداخلة."
 			},
 			{
 				"name": "email",
-				"title": "💌 البريد الإلكتروني",
-				"desc": "example@example.com"
+				"title": "البريد الإلكتروني",
+				"desc": "info@tamkin-dakhla.com"
 			},
 			{
 				"name": "phone",
-				"title": "☎️ الهاتف",
-				"desc": "+88 123 456 789"
+				"title": "الهاتف",
+				"desc": "06 63 66 16 19"
 			},
 			{
 				"name": "working_hours",
-				"title": "🕒 ساعات العمل",
-				"desc": "الإثنين - الجمعة: 9:00 - 19:00"
+				"title": "ساعات العمل",
+				"desc": "الإثنين - الجمعة: 9:00 - 16:00"
 			},
 			{
 				"name": "socials",
@@ -260,17 +260,17 @@
 			"site_title": "مدونة Ncmaz Nextjs",
 			"site_description": "مدونة Ncmaz Nextjs بنظام WordPress بدون رأس",
 			"site_keywords": "مدونة Ncmaz Nextjs",
-			"site_author": "ChisNghiax",
-			"site_email": "بريدك الإلكتروني",
-			"site_phone": "هاتفك",
-			"site_address": "عنوانك",
-			"site_city": "مدينتك",
-			"site_state": "ولايتك",
-			"site_zip": "الرمز البريدي",
-			"site_country": "دولتك",
-			"site_url": "https://www.yoursite.com",
+			"site_author": "ُCisneros Post S.A.R.L",
+			"site_email": "elmokhtar.cheikh@gmail.com",
+			"site_phone": "0663661619",
+			"site_address": "Dakhla",
+			"site_city": "Dakhla",
+			"site_state": "Oued Eddahab",
+			"site_zip": "73000",
+			"site_country": "Morocco",
+			"site_url": "https://www.tamkin-dakhla.com",
 			"home_page": {
-				"welcome_message": "مرحبًا بك في مدونتي الخاصة! ابحث في المقالات حول الأعمال والابتكار."
+				"welcome_message": "مرحبًا بك ."
 			}
 		},
 		"social_media": {

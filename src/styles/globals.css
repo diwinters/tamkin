@@ -55,7 +55,9 @@
     border-radius: 9px 9px 0 0;
 }
 .nc-Badge {
-    background: #292929;
-    color: white;
+    background: white;
+    color: black;
     border-radius: 6px;
+    border: 1px solid #0000000d;
+    box-shadow: 0 1px 3px -1px #0000003d;
 }
