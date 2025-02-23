@@ -43,3 +43,14 @@
 .nc-Card10V2 img {
     border-radius: 9px 9px 0 0;
 }
+.rounded-3xl {
+    border-radius: 9px;
+}
+
+.rounded-2xl {
+    border-radius: 9px;
+}
+
+.rounded-t-3xl {
+    border-radius: 9px 9px 0 0;
+}
