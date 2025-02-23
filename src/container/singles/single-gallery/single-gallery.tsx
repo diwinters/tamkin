@@ -60,7 +60,7 @@ const SingleTypeGallery: FC<Props> = ({ post }) => {
 
 	return (
 		<>
-			<div className={`pt-8 lg:pt-16`}>
+			<div className={`pt-8 lg:pt-16 bg-white dark:bg-neutral-800`}>
 				{/* SINGLE HEADER */}
 				<header className="container rounded-xl">
 					<SingleHeader hiddenDesc post={post} />
@@ -152,13 +152,15 @@ const SingleTypeGallery: FC<Props> = ({ post }) => {
 					</div>
 				</header>
 
-				<ListingImageGallery
+				
+			</div>
+			<ListingImageGallery
 					isShowModal={currentImageIndex > -1}
+					className='container'
 					onClose={handleCloseModalImageGallery}
 					images={IMAGES_GALLERY as NcmazFcImageHasDetailFieldsFragment[]}
 					defaultImageIdx={currentImageIndex}
 				/>
-			</div>
 		</>
 	)
 }

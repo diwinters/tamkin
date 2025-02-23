@@ -15,15 +15,18 @@ import MyImage from '@/components/MyImage'
 import { useWindowSize } from '@/hooks/useWindowSize'
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
+
 interface Props {
 	images?: NcmazFcImageHasDetailFieldsFragment[]
 	onClose?: () => void
 	isShowModal: boolean
 	defaultImageIdx: number
+	className?: string;
 }
 
 const ListingImageGallery: FC<Props> = ({
 	images,
+	className,
 	onClose,
 	isShowModal,
 	defaultImageIdx = 0,
