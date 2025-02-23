@@ -64,7 +64,12 @@ const SingleTypeGallery: FC<Props> = ({ post }) => {
 				{/* SINGLE HEADER */}
 				<header className="container rounded-xl">
 					<SingleHeader hiddenDesc post={post} />
-					<div className="my-10 overflow-hidden">
+
+				</header>
+
+				
+			</div>
+			<div className="container my-10 overflow-hidden">
 						{IMAGES_GALLERY[0] && postFormats === 'gallery' && (
 							<div className="relative max-h-[60vh] min-h-[240px] sm:min-h-[300px]">
 								<div className="relative h-0 w-full pt-[50%]">
@@ -150,10 +155,6 @@ const SingleTypeGallery: FC<Props> = ({ post }) => {
 							</div>
 						)}
 					</div>
-				</header>
-
-				
-			</div>
 			<ListingImageGallery
 					isShowModal={currentImageIndex > -1}
 					className='container'
