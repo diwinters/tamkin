@@ -31,7 +31,7 @@ const Card10: FC<Card10Props> = ({ className = 'h-full', post }) => {
 
 	return (
 		<div
-			className={`nc-Card10 relative flex flex-col ${className}`}
+			className={`bg-white dark:bg-neutral-900 nc-Card10 relative flex flex-col ${className}`}
 			onMouseEnter={() => setIsHover(true)}
 			onMouseLeave={() => setIsHover(false)}
 		>

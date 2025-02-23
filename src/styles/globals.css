@@ -14,9 +14,6 @@
     padding: 0 0 15px 0;
 }
 
-.nc-Card10V3 img {
-    border-radius: 9px 9px 0 0;
-}
 
 .nc-Card10 {
     box-shadow: 0 3px 9px rgba(34, 42, 53, .05), 0 0 0 1px rgba(34, 42, 53, .08), 0 1px 3px -3px rgba(19, 19, 22, .7);
@@ -53,7 +50,7 @@
     border-radius: 9px 9px 0 0;
 }
 .nc-Badge {
-    background: white;
+    @apply bg-white dark:bg-neutral-90;
     color: black;
     border-radius: 6px;
     border: 1px solid #0000000d;
