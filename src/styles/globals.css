@@ -51,7 +51,6 @@
 }
 .nc-Badge {
     @apply bg-white dark:bg-neutral-900 text-black dark:text-white;
-    color: black;
     border-radius: 6px;
     border: 1px solid #0000000d;
     box-shadow: 0 1px 3px -1px #0000003d;
