@@ -80,7 +80,7 @@ const Archive: FaustTemplate<PageArchiveGetArchiveQuery> = (props) => {
 					top10Categories={_top10Categories}
 				>
 					<div className="container mt-4 md:mt-10">
-						<div className="relative flex flex-col gap-4 rounded-3xl border border-neutral-200/70 p-5 md:flex-row md:gap-6 md:rounded-[2rem] lg:p-7 xl:gap-12 dark:border-neutral-700">
+						<div className="relative flex flex-col gap-4 rounded-3xl bg-white dark:bg-neutral-800 border border-neutral-200/70 p-5 md:flex-row md:gap-6 md:rounded-[2rem] lg:p-7 xl:gap-12 dark:border-neutral-700">
 							<div className="flex-shrink-0">
 								<div className="wil-avatar relative z-0 h-24 w-24 flex-shrink-0 overflow-hidden rounded-3xl ring-4 ring-white sm:h-32 sm:w-32 lg:h-40 lg:w-40 dark:ring-0">
 									<div className="absolute inset-0 flex items-center justify-center bg-neutral-100 dark:bg-neutral-800">
