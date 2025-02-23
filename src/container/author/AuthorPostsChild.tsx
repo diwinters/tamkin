@@ -73,7 +73,7 @@ const AuthorPostsChild: FaustPage<GetAuthorWithPostsQuery> = (props) => {
 							<div className="container">
 								<Tab currentTab="" />
 
-								<div className="mb-4 block w-full border-b border-neutral-300 sm:hidden dark:border-neutral-500"></div>
+								<div className="block w-full border-b border-neutral-300 sm:hidden dark:border-neutral-500"></div>
 							</div>
 							</div>
 					<div className="container space-y-16 lg:space-y-28 lg:pb-28">

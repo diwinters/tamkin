@@ -100,13 +100,17 @@ const AuthorSaveChild: FaustPage<PageAuthorBookmarksGetDataQuery> = props => {
 				}
 			>
 				<AuthorLayout user={user || {}}>
+					{/* TABS FILTER */}
+					<div className="bg-white dark:bg-neutral-800 w-full flex flex-col border-neutral-200 sm:flex-row sm:items-center sm:justify-between sm:border-b dark:border-neutral-600">
+							<div className="container">
+								<Tab currentTab="bookmarks" />
+
+								<div className="block w-full border-b border-neutral-300 sm:hidden dark:border-neutral-500"></div>
+							</div>
+							</div>
 					<div className="container space-y-16 lg:space-y-28 lg:pb-28">
 						<main>
-							{/* TABS FILTER */}
-							<div className="flex flex-col border-neutral-200 sm:flex-row sm:items-center sm:justify-between sm:border-b dark:border-neutral-600">
-								<Tab currentTab="bookmarks" />
-								<div className="mb-4 block w-full border-b border-neutral-300 sm:hidden dark:border-neutral-500"></div>
-							</div>
+					
 
 							{!!error && (
 								<div className="mt-8 lg:mt-12">
