@@ -54,3 +54,8 @@
 .rounded-t-3xl {
     border-radius: 9px 9px 0 0;
 }
+.nc-Badge {
+    background: #292929;
+    color: white;
+    border-radius: 6px;
+}
