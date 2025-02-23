@@ -166,7 +166,7 @@ const ModalSelectAuthors: FC<Props> = ({ onUpdated, initIds = [] }) => {
 
 						<UserSearchIcon className="-ms-1.5 me-2 h-5 w-5" />
 						<div>
-							<span>{T.Authors}</span>
+							<span>النشاط</span>
 						</div>
 						<ChevronDownIcon
 							className="-me-1 ms-2 h-4 w-4"

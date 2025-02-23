@@ -20,7 +20,7 @@ export default {
     'Are you sure you want to delete this comment? You cannot undo this action.': 'هل أنت متأكد أنك تريد حذف هذا التعليق؟ لا يمكن التراجع عن هذا الإجراء.',
     Delete: 'حذف',
     'Enter keyword to search': 'أدخل كلمة مفتاحية للبحث',
-    Keyword: 'كلمة مفتاحية',
+    Keyword: 'بحث',
     'Revert new changes': 'تراجع عن التغييرات الجديدة',
     'Filter posts by': 'تصفية المشاركات حسب',
     'Comments/asc': 'تعليقات/تصاعدي',

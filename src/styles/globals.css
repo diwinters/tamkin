@@ -56,3 +56,6 @@
     border: 1px solid #0000000d;
     box-shadow: 0 1px 3px -1px #0000003d;
 }
+.float-right {
+    float: right;
+}

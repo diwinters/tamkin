@@ -34,7 +34,7 @@ const ModalSelectKeyword: FC<Props> = ({ onUpdated, initText = '' }) => {
 				className="block w-full p-4"
 			>
 				<Field>
-					<Label className="text-sm/6 font-medium">
+					<Label className="text-sm/6 font-medium float-right">
 						{T['Enter keyword to search']}
 					</Label>
 					<Description className="text-sm/6 text-slate-400"></Description>

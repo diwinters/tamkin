@@ -176,7 +176,7 @@ const ModalSelectTags: FC<Props> = ({ onUpdated, initIds = [] }) => {
 						)}
 						<TagIcon className="-ms-1.5 me-2 h-5 w-5" />
 						<div>
-							<span>{T['Tags']}</span>
+							<span>النوع</span>
 						</div>
 						<ChevronDownIcon
 							className="-me-1 ms-2 h-4 w-4"
